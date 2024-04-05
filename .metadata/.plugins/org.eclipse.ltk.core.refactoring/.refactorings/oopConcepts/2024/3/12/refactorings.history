@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;multiThreading&apos; to &apos;coreJava/src&apos;&#x0D;&#x0A;- Original project: &apos;oopConcepts&apos;&#x0D;&#x0A;- Destination element: &apos;coreJava/src&apos;&#x0D;&#x0A;- Original element: &apos;oopConcepts/src/multiThreading&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=coreJava/src" element1="/src&lt;multiThreading" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1710754478342" version="1.0"/>
+</session>
