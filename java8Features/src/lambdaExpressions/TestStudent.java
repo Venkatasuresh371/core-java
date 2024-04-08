@@ -28,13 +28,13 @@ public class TestStudent
 			System.out.println("Name : "+student.getName()+"\t Age : "+student.getAge()+"   Courses : "+student.getCourses());
 		}
 		
-		System.out.println("**************");
+		System.out.println();
 		List<Student> list1 = list.stream().filter(student ->student.getAge()>22).collect(Collectors.toList());
 		for (Student student : list1) 
 		{
 			System.out.println("Name : "+student.getName()+"\t Age : "+student.getAge());
 		}
-		System.out.println("**************");
+		System.out.println();
 		List<String> list2 = list.stream().filter(student ->student.getAge()>22).map(std->std.getName()).collect(Collectors.toList());
 		System.out.println(list2);
 	}

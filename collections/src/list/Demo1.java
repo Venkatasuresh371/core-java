@@ -20,5 +20,6 @@ public class Demo1
 		System.out.println("List A : " + numbersA);
 		System.out.println("List B : " + numbersB);
 		System.out.println("Common elements between A and B: " + numbersC);
+		
 	}
 }
