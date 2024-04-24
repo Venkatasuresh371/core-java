@@ -14,7 +14,7 @@ interface C
 }
 interface D
 {
-	public String m4(String s1);
+	public int m4(int x,int y);
 }
 public class Demo3 
 {
@@ -31,10 +31,10 @@ public class Demo3
 		};
 		
 		System.out.println(c.m3());
-		D d = (s1)->
+		D d = (s1,s2)->
 		{
-			return s1;
+			return s1+s2;
 		};
-		System.out.println(d.m4("one argument with string return type"));
+		System.out.println(d.m4(20, 40));
 	}
 }

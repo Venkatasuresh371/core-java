@@ -12,6 +12,6 @@ public class Demo1
 		for(int i=0;i<b.length;i++)
 		{
 			System.out.print(b[i]+" ");
-		}
+		}		
 	}
 }

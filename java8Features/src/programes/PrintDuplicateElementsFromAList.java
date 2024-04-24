@@ -18,6 +18,10 @@ public class PrintDuplicateElementsFromAList
 		System.out.println("************");
 		List<Integer> list = Arrays.asList(30,10,40,20,10,40,10,60,90,70);
 		List<Integer> collect = list.stream().filter(ele -> list.indexOf(ele)!=list.lastIndexOf(ele)).distinct().collect(Collectors.toList());
-		System.out.println(collect);
+		System.out.println(collect);	
+		System.out.println("****************");
+		int[] a = {2,5,6,3,2,45,6,7,8};
+		int[] array = Arrays.stream(a).distinct().toArray();
+		System.out.println(Arrays.toString(array));
 	}
 }
